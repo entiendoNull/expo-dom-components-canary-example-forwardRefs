@@ -1,14 +1,8 @@
 # Experimental DOM Components with Expo Canary
 
-This project demonstrates how to use experimental [DOM components](https://docs.expo.dev/guides/dom-components/) with Expo canary.
+Based on this repo: https://github.com/EvanBacon/expo-dom-components-canary-example
 
-Your best bet is to use dev clients (`npx expo run`), but you can also try running this in Expo Go but YMMV until Expo SDK 52 is released.
+This is just a small, requested repro of how forwardRefs doesn't seem to work as intended when "use dom" is applied in a component.
+Instead they are applied to the WebView.
 
-This demo has a template UI from:
-
-- [shadcn UI](https://ui.shadcn.com/blocks).
-- MDX content from [`@bacons/mdx`](https://github.com/EvanBacon/expo-mdx).
-- React Three Fiber [demo](https://codesandbox.io/p/sandbox/re-using-gltfs-dix1y?file=%2Fpackage.json%3A10%2C3-10%2C23) from @drcmda.
-- An image cropper from `react-mobile-cropper`.
-- Emoji picker from `emoji-mart`.
-# expo-dom-components-canary-example-forwardRefs
+<img width="1228" alt="image" src="https://github.com/user-attachments/assets/420d0968-ea32-48d6-aea5-41c0ca9e8173">
